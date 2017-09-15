@@ -4,8 +4,7 @@ import java.util.function.Supplier;
  * Created by sonal on 14/9/17.
  */
 public class SupplierDemo {
-    static void display(Supplier<Integer> arg){
-        System.out.println(arg.get());
+    static void display(Supplier<Integer> arg){System.out.println(arg.get());
     }
 
     public static void main(String[] args) {
