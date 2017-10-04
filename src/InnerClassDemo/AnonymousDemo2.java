@@ -1,3 +1,5 @@
+package InnerClassDemo;
+
 /**
  * Created by sonal on 13/9/17.
  */
@@ -6,7 +8,7 @@ interface eatable{
 }
 public class AnonymousDemo2 {
     public static void main(String[] args) {
-        eatable e=new eatable() {//object of anonymous class created referred by e reference variable of eatable type
+        eatable e=new eatable() {//object of anonymous class created referred by e reference variable of InnerClassDemo.eatable type
             @Override
             public void eat() {
                 System.out.println("in eat method...");

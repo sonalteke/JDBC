@@ -1,3 +1,5 @@
+package SupplierInterface;
+
 /**
  * Created by sonal on 15/9/17.
  */
@@ -6,7 +8,7 @@ public class Student {
     String name;
     String city;
 
-    public Student(int id,String name,String city){
+    public Student(int id, String name, String city){
         this.id=id;
         this.name=name;
         this.city=city;
@@ -19,9 +21,7 @@ public class Student {
                 ", city='" + city + '\'' +
                 '}';
     }
-    public int getId() {
-        return id;
-    }
+    public int getId() {return id;}
 
     public void setId(int id) {
         this.id = id;

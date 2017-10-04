@@ -1,9 +1,11 @@
+package LambdaDemo;
+
 /**
  * Created by sonal on 13/9/17.
  */
-//public class MultiThreadInterfaceDemo implements Runnable {
+//public class LambdaDemo.MultiThreadInterfaceDemo implements Runnable {
 //    public static void main(String[] args) {
-//        MultiThreadInterfaceDemo m = new MultiThreadInterfaceDemo();
+//        LambdaDemo.MultiThreadInterfaceDemo m = new LambdaDemo.MultiThreadInterfaceDemo();
 //        Thread t = new Thread(m);
 //        t.start();
 //    }

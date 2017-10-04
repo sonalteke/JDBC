@@ -1,3 +1,5 @@
+package SupplierInterface;
+
 import java.util.function.Supplier;
 
 /**

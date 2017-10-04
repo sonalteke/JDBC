@@ -1,3 +1,5 @@
+package InnerClassDemo;
+
 /**
  * Created by sonal on 13/9/17.
  */
